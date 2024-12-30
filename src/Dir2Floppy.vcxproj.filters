@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e0f867b0-2e2b-4330-80cd-78fba91547f0}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ZIP">
+      <UniqueIdentifier>{2bcdfab7-fa57-4c3a-9c7e-1e646f89f8d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{44e512ce-a02d-44c6-8fd9-caf067907730}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{5ed61e2f-d3ec-4d65-9e40-2f500c5052d8}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dir2Floppy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZIP\CRC.C">
+      <Filter>Source Files\ZIP</Filter>
+    </ClCompile>
+    <ClCompile Include="ZIP\INFLATE.C">
+      <Filter>Source Files\ZIP</Filter>
+    </ClCompile>
+    <ClCompile Include="ZIP\ZIPIO.C">
+      <Filter>Source Files\ZIP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ZIP\CRC.H">
+      <Filter>Source Files\ZIP</Filter>
+    </ClInclude>
+    <ClInclude Include="ZIP\INFLATE.H">
+      <Filter>Source Files\ZIP</Filter>
+    </ClInclude>
+    <ClInclude Include="ZIP\ZIPIO.H">
+      <Filter>Source Files\ZIP</Filter>
+    </ClInclude>
+    <ClInclude Include="Dir2Floppy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
